@@ -21,6 +21,11 @@
         <module>NOWCODER_HJ12</module>
         <module>NOWCODER_HJ13</module>
         <module>NOWCODER_HJ17</module>
+        <module>NOWCODER_HJ18</module>
+        <module>CODILITY_PRACTICE_QUIZ</module>
+        <module>NOWCODER_HJ19</module>
+        <module>NOWCODER_HJ21</module>
+        <module>NOWCODER_HJ22</module>
     </modules>
 
     <properties>
