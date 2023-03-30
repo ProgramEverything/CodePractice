@@ -26,6 +26,8 @@
         <module>NOWCODER_HJ19</module>
         <module>NOWCODER_HJ21</module>
         <module>NOWCODER_HJ22</module>
+        <module>NOMURA_INTERNSHIP_TEST_1</module>
+        <module>MONURA_INTERNSHIP_TEST_2</module>
     </modules>
 
     <properties>
