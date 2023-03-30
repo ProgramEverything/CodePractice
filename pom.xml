@@ -15,6 +15,12 @@
         <module>NOWCODER_HJ6</module>
         <module>NOWCODER_HJ7</module>
         <module>NOWCODER_HJ8</module>
+        <module>NOWCODER_HJ9</module>
+        <module>NOWCODER_HJ10</module>
+        <module>NOWCODER_HJ11</module>
+        <module>NOWCODER_HJ12</module>
+        <module>NOWCODER_HJ13</module>
+        <module>NOWCODER_HJ17</module>
     </modules>
 
     <properties>
