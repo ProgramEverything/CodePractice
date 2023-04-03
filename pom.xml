@@ -28,6 +28,7 @@
         <module>NOWCODER_HJ22</module>
         <module>NOMURA_INTERNSHIP_TEST_1</module>
         <module>NOMURA_INTERNSHIP_TEST_2</module>
+        <module>HASHMAP_FEATURE</module>
     </modules>
 
     <properties>
