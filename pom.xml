@@ -28,7 +28,11 @@
         <module>NOWCODER_HJ22</module>
         <module>NOMURA_INTERNSHIP_TEST_1</module>
         <module>NOMURA_INTERNSHIP_TEST_2</module>
-        <module>HASHMAP_FEATURE</module>
+        <module>BUBBLE_SORT</module>
+        <module>LEETCODE_HOT100_1</module>
+        <module>LEETCODE_HOT100_2</module>
+        <module>LEETCODE_HOT100_3</module>
+        <module>REGEX</module>
     </modules>
 
     <properties>
