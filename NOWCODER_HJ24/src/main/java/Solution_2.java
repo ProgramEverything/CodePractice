@@ -52,15 +52,36 @@ public class Solution_2 {
                 // 什么也不做
             }
             else {
-                // 进行二分查找，找到第一个大于in[i]的数
-
+                // 进行二分查找，找到第一个大于in[i]的数进行替换
+                // 注意！因为并不删除后续元素，所以指针位置不变
+                int temp = binarySearch(Arrays.copyOf(currentLongestAscendSequence, ptr + 1), in[i]);
+                if (temp == -1) {
+                    // 如果存在相同的数那么不变
+                    continue;
+                }
+                currentLongestAscendSequence[temp] = in[i];
             }
         }
         return ptr + 1;
     }
-    public static void binarySearch(int[] array, int target) {
+    public static int binarySearch(int[] array, int target) {
         // 找到第一个大于target的数的索引，或者是否存在等于target的数，是则返回-1
-
+        // 搜索范围是[start, end)
+        int start = 0;
+        int end = array.length;
+        while (start != end) {
+            int middle = array[(end - start) / 2 + start];
+            if (target == middle) {
+                return -1;
+            }
+            if (middle < target) {
+                start = (end - start) / 2 + start + 1;
+            }
+            else {
+                end = (end - start) / 2 + start;
+            }
+        }
+        return start;
     }
     public static void reversArray(int[] ori) {
         int length = ori.length;
