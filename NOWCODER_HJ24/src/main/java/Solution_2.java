@@ -1,9 +1,11 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Solution_1 {
+public class Solution_2 {
     public static void main(String[] args) {
-        // 最长上升子序列问题
-        // 分别求出左右最长子序列的方法时间复杂度为O(N^2)，通常情况下是不能通过测试的
+        // 用贪心算法+二分查找解决最长上升子序列问题
+        // 在这个问题中，贪心就是要让子序列的最后一个数尽量小，也就是在遍历过程中找到比最后一个数小的数，就进行替换
+        // 要找到第一个大于该数的数进行替换，但是替换并不删除后续元素，尽管此时子序列中可能各元素的顺序并不符合原序列，但是此时子序列的长度仍然代表当前最长上升子序列的长度
         Scanner scanner = new Scanner(System.in);
         int studentsNumber = 0;
         if (scanner.hasNextInt()) {
@@ -35,7 +37,31 @@ public class Solution_1 {
             System.out.println(studentsNumber - max);
         }
     }
+    public static int longestAscendSequence(int[] in) {
+        int[] currentLongestAscendSequence = new int[in.length];
+        int ptr = -1;   // ptr指向当前最长子序列的结尾
+        for (int i = 0; i < in.length; ++i) {
+            if (ptr == -1) {
+                currentLongestAscendSequence[0] = in[i];
+                ptr = 0;
+            }
+            else if (in[i] > currentLongestAscendSequence[ptr]){
+                currentLongestAscendSequence[++ptr] = in[i];
+            }
+            else if (in[i] == currentLongestAscendSequence[ptr]){
+                // 什么也不做
+            }
+            else {
+                // 进行二分查找，找到第一个大于in[i]的数
 
+            }
+        }
+        return ptr + 1;
+    }
+    public static void binarySearch(int[] array, int target) {
+        // 找到第一个大于target的数的索引，或者是否存在等于target的数，是则返回-1
+
+    }
     public static void reversArray(int[] ori) {
         int length = ori.length;
         int half = length / 2;
@@ -45,7 +71,6 @@ public class Solution_1 {
             ori[length - 1 - i] = temp;
         }
     }
-
     public static int[] splitAndParse(int studentsNumber, String in) {
         String[] split = in.split(" ");
         int[] sequence = new int[studentsNumber];
@@ -53,22 +78,5 @@ public class Solution_1 {
             sequence[i] = Integer.parseInt(split[i]);
         }
         return sequence;
-    }
-
-    public static int longestAscendSequence(int[] in) {
-        if (in.length == 1) {
-            // 如果序列里只有自己，那么最大长度为1
-            return 1;
-        }
-        int longestLength = 0;
-        for (int i = 0; i < in.length - 1; ++i) {
-            if (in[i] < in[in.length - 1]) {
-                int temp = longestAscendSequence(Arrays.copyOf(in, i + 1));
-                if (temp > longestLength) {
-                    longestLength = temp;
-                }
-            }
-        }
-        return longestLength + 1;
     }
 }
