@@ -33,6 +33,9 @@
         <module>LEETCODE_HOT100_2</module>
         <module>LEETCODE_HOT100_3</module>
         <module>REGEX</module>
+        <module>NOWCODER_HJ20</module>
+        <module>NOWCODER_HJ23</module>
+        <module>NOWCODER_HJ24</module>
     </modules>
 
     <properties>
