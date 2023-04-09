@@ -37,6 +37,8 @@
         <module>NOWCODER_HJ23</module>
         <module>NOWCODER_HJ24</module>
         <module>NOWCODER_HJ25</module>
+        <module>NOWCODER_HJ26</module>
+        <module>NOWCODER_HJ27</module>
     </modules>
 
     <properties>

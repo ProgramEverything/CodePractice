@@ -14,8 +14,21 @@ public class Solution_1 {
         if (scanner.hasNextLine()) {
             rules = trimRules(scanner.nextLine());
         }
+
+        int cnt = 0;
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < rules.length; ++i) {
+            Object[] result = getOccursString(inputs, rules[i]);
+            if (result == null) {
+                continue;
+            }
+            sb.append(result[1]);
+            cnt += ((Integer) result[0]);
+        }
+        sb.insert(0, cnt + " ");
+        System.out.println(sb.toString());
     }
-    public static String getOccursString(Integer[] array, Integer target) {
+    public static Object[] getOccursString(Integer[] array, Integer target) {
         int[] occursArray = new int[array.length + 1];
         String targetString = target.toString();
         int cnt = 0;
@@ -26,8 +39,11 @@ public class Solution_1 {
                 cnt ++;
             }
         }
+        if (cnt == 0) {
+            return null;
+        }
         sb.insert(0, target + " " + cnt + " ");
-        return sb.toString();
+        return new Object[]{cnt * 2 + 2, sb.toString()};
     }
     public static Integer[] trimInputs(String input) {
         String[] split = input.split(" ");
@@ -41,8 +57,8 @@ public class Solution_1 {
     public static Integer[] trimRules(String rule) {
         String[] splits = rule.split(" ");
         Set<Integer> rules = new TreeSet<>();
-        for (String split : splits) {
-            rules.add(Integer.parseInt(split));
+        for (int i = 1; i < splits.length; ++i) {
+            rules.add(Integer.parseInt(splits[i]));
         }
         Integer[] rulesArray = new Integer[rules.size()];
         rules.toArray(rulesArray);
