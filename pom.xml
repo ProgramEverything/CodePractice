@@ -40,6 +40,8 @@
         <module>NOWCODER_HJ26</module>
         <module>NOWCODER_HJ27</module>
         <module>NOWCODER_HJ28</module>
+        <module>NOWCODER_HJ29</module>
+        <module>NOWCODER_HJ30</module>
     </modules>
 
     <properties>
