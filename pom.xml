@@ -50,6 +50,10 @@
         <module>NOWCODER_HJ37</module>
         <module>NOWCODER_HJ38</module>
         <module>NOWCODER_HJ39</module>
+        <module>NOWCODER_HJ41</module>
+        <module>NOWCODER_HJ42</module>
+        <module>DFS_PRACTICE</module>
+        <module>BFS_PRACTICE</module>
     </modules>
 
     <properties>
