@@ -54,6 +54,8 @@
         <module>NOWCODER_HJ42</module>
         <module>DFS_PRACTICE</module>
         <module>BFS_PRACTICE</module>
+        <module>LEETCODE_797</module>
+        <module>NOWCODER_HJ43</module>
     </modules>
 
     <properties>
