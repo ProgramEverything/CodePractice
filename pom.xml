@@ -57,6 +57,16 @@
         <module>LEETCODE_797</module>
         <module>NOWCODER_HJ43</module>
         <module>NOWCODER_HJ48</module>
+        <module>HUAWEIJIKAO_2023_OTHER_DISTRICT_1</module>
+        <module>HUAWEIJIKAO_2023_OTHER_DISTRICT_2</module>
+        <module>HUAWEIJIKAO_2023_PRACTICE</module>
+        <module>BINARY_SEARCH</module>
+        <module>NOWCODER_HJ60</module>
+        <module>NOWCODER_HJ61</module>
+        <module>NOWCODER_HJ64</module>
+        <module>HUAWEIJIKAO_2023_SHANGHAI_1</module>
+        <module>HUAWEIJIKAO_2023_SHANGHAI_2</module>
+        <module>HUAWEIJIKAO_2023_SHANGHAI_3</module>
     </modules>
 
     <properties>
