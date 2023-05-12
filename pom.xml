@@ -45,7 +45,7 @@
         <module>NOWCODER_HJ31</module>
         <module>NOWCODER_HJ32</module>
         <module>NOWCODER_HJ33</module>
-        <module>NOWCODER_HJ35</module>
+        <module>NOWCODER_HJ34</module>
         <module>NOWCODER_HJ36</module>
         <module>NOWCODER_HJ37</module>
         <module>NOWCODER_HJ38</module>
@@ -67,6 +67,7 @@
         <module>HUAWEIJIKAO_2023_SHANGHAI_1</module>
         <module>HUAWEIJIKAO_2023_SHANGHAI_2</module>
         <module>HUAWEIJIKAO_2023_SHANGHAI_3</module>
+        <module>CODE_QUIZ_FROM_WEIBO</module>
         <module>ALI_2023_SUMMER_INTERNSHIP_1</module>
     </modules>
 

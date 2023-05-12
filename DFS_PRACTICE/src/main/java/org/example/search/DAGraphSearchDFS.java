@@ -17,8 +17,11 @@ public class DAGraphSearchDFS {
                 new int[0]
         };
         List<Integer> track = new LinkedList<>();
-        List<List<Integer>> tracks = new LinkedList<>();
         SearchOne(graph, 0, 3, track);
+        System.out.println(Arrays.toString(track.toArray()));
+
+
+        List<List<Integer>> tracks = new LinkedList<>();
         tracks.forEach(track_n -> {
             System.out.println(Arrays.toString(track_n.toArray()));
         });
