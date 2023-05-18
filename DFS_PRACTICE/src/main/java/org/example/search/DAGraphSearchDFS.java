@@ -17,11 +17,12 @@ public class DAGraphSearchDFS {
                 new int[0]
         };
         List<Integer> track = new LinkedList<>();
-        SearchOne(graph, 0, 3, track);
-        System.out.println(Arrays.toString(track.toArray()));
+//        SearchOne(graph, 0, 3, track);
+//        System.out.println(Arrays.toString(track.toArray()));
 
 
         List<List<Integer>> tracks = new LinkedList<>();
+        SearchAll(graph, 0, 3, track, tracks);
         tracks.forEach(track_n -> {
             System.out.println(Arrays.toString(track_n.toArray()));
         });
@@ -50,6 +51,14 @@ public class DAGraphSearchDFS {
     }
 
     public static void SearchAll(int[][] graph, int currentNode, int target, List<Integer> track, List<List<Integer>> tracks) {
-
+        if (currentNode == target) {
+            tracks.add(List.copyOf(track));
+            return;
+        }
+        for (int childNodes : graph[currentNode]) {
+            track.add(childNodes);
+            SearchAll(graph, childNodes, target, track, tracks);
+            track.remove(track.size() - 1);
+        }
     }
 }
