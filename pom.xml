@@ -73,6 +73,8 @@
         <module>MAYI_2023_SUMMER_INTERNSHIP_1</module>
         <module>MAYI_2023_SUMMER_INTERNSHIP_2</module>
         <module>MAYI_2023_SUMMER_INTERNSHIP_3</module>
+        <module>ALGO_COMPETITION_1_FLOWERS</module>
+        <module>ALGO_COMPETITION_5_HOTPOT</module>
     </modules>
 
     <properties>
