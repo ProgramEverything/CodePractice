@@ -73,6 +73,14 @@
         <module>MAYI_2023_SUMMER_INTERNSHIP_1</module>
         <module>MAYI_2023_SUMMER_INTERNSHIP_2</module>
         <module>MAYI_2023_SUMMER_INTERNSHIP_3</module>
+        <module>FANRUAN_2019_AUTUMN_RECRUIT_1</module>
+        <module>FANRUAN_2019_AUTUMN_RECRUIT_2</module>
+        <module>FANRUAN_2019_AUTUMN_RECRUIT_3</module>
+        <module>BIGDECIMAL</module>
+        <module>ABOUT_OBJECT</module>
+        <module>LONGEST_PUBLIC_SUBSTRING</module>
+        <module>LONGEST_PUBLIC_SUBSERIE</module>
+        <module>BIGINTEGER</module>
     </modules>
 
     <properties>
