@@ -75,6 +75,11 @@
         <module>MAYI_2023_SUMMER_INTERNSHIP_3</module>
         <module>ALGO_COMPETITION_1_FLOWERS</module>
         <module>ALGO_COMPETITION_5_HOTPOT</module>
+        <module>TENCENT_2023_AUTUMN</module>
+        <module>FANRUAN_AUTUMN_2023</module>
+        <module>MEITUAN_2023_AUTUM_2</module>
+        <module>MEITUAN_2023_AUTUM_3</module>
+        <module>MEITUAN_2023_AUTUMN_4</module>
     </modules>
 
     <properties>
