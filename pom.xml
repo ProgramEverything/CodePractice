@@ -88,6 +88,17 @@
         <module>MEITUAN_2023_AUTUM_2</module>
         <module>MEITUAN_2023_AUTUM_3</module>
         <module>MEITUAN_2023_AUTUMN_4</module>
+        <module>MEITUAN_2021_1</module>
+        <module>MEITUAN_2021_2</module>
+        <module>MEITUAN_2021_3</module>
+        <module>MEITUAN_2021_4</module>
+        <module>MEITUAN_2023_1</module>
+        <module>MEITUAN_2023_2</module>
+        <module>MEITUAN_2023_3</module>
+        <module>MEITUAN_2023_4</module>
+        <module>ABOUT_THREAD_SAFETY</module>
+        <module>YAOCHENGJIANKANG_1</module>
+        <module>YAOCHENGJIANKANG_2</module>
     </modules>
 
     <properties>

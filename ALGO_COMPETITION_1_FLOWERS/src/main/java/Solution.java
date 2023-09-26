@@ -1,7 +1,9 @@
 import java.util.Scanner;
+import org.example.CodePractice.Main;
 
 public class Solution {
     public static void main(String args[]) {
+        Main.main(new String[0]);
         Scanner scanner = new Scanner(System.in);
         String[] n_k = new String[0];
         if (scanner.hasNextLine()) {
