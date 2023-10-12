@@ -83,6 +83,17 @@
         <module>LONGEST_PUBLIC_SUBSTRING</module>
         <module>LONGEST_PUBLIC_SUBSERIE</module>
         <module>BIGINTEGER</module>
+        <module>MEITUAN_2021_SCHOOL_RECRUIT_1</module>
+        <module>ZHONGXING_NOWCODER_21</module>
+        <module>ZHONGXING_NOWCODER_22</module>
+        <module>LEETCODE_1222</module>
+        <module>LEETCODE_647</module>
+        <module>ZHONGXING_2023_AUTUMN_2</module>
+        <module>ABOUT_HASH_CODE</module>
+        <module>LEETCODE_2653_SUBARRAY_BEAUTY</module>
+        <module>LEETCODE_2610_FIND_MATRIX</module>
+        <module>LEETCODE_2435_NUMBER_OF_PATH</module>
+        <module>QUICK_SORT</module>
     </modules>
 
     <properties>
