@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>TENCENT_2023_AUTUMN</artifactId>
+    <artifactId>LEETCODE_42_TRAP</artifactId>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

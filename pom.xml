@@ -94,7 +94,6 @@
         <module>LEETCODE_2610_FIND_MATRIX</module>
         <module>LEETCODE_2435_NUMBER_OF_PATH</module>
         <module>QUICK_SORT</module>
-        <module>TENCENT_2023_AUTUMN</module>
         <module>FANRUAN_AUTUMN_2023</module>
         <module>MEITUAN_2023_AUTUM_2</module>
         <module>MEITUAN_2023_AUTUM_3</module>
@@ -108,8 +107,8 @@
         <module>MEITUAN_2023_3</module>
         <module>MEITUAN_2023_4</module>
         <module>ABOUT_THREAD_SAFETY</module>
-        <module>YAOCHENGJIANKANG_1</module>
-        <module>YAOCHENGJIANKANG_2</module>
+        <module>LEETCODE_42_TRAP</module>
+        <module>TESLA_2023_1</module>
     </modules>
 
     <properties>

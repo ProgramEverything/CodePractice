@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>YAOCHENGJIANKANG_1</artifactId>
+    <artifactId>LEETCODE_128_HOT100_LONGEST_CONSECUTIVE</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
